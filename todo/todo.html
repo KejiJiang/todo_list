@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ToDOList</title>
+    <link rel="stylesheet" href="todo.css">
+    <script src="https://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+    <script src="todo.js"></script>
+</head>
+    
+<body style="background-color: #ffdcdc;margin: 0 auto;">
+    <div class="pg-top">
+        <label id="l1">ToDoList</label>
+        <input id="i12" type="date" name="time"><!--时间输入框-->
+        <input id="i1" type="text" placeholder="请输入待办项目" name="thing" style="border-radius: 5px;" /><!--事项输入框-->
+        <input id="i2" type="button" onclick="add()" value="确定"><!--确定按钮-->
+        <div class="middle-bottom">
+            <button id="i3" value="clearall" onclick="deleall()">清除全部</button><!--清除全部按钮-->
+            <button id="i4" value="getlist" onclick="get()">获取列表</button><!--获取列表按钮-->
+            <button id="i5" onclick="search()">查询</button><!--查询按钮-->
+        </div>
+        <input id="i11" type="text" placeholder="请输入查询事项" style="border-radius:5px;"/><!--查询事项框-->
+    </div>
+    <div class="pg-body">
+        <div class="body-middle1"
+            style="position: fixed;margin-top: 200px;z-index: 1;background-color: rgb(255, 139, 81);">
+            <h2 style="color: rgb(255, 73, 73);text-align: center;">未完成</h2>
+        </div>
+        <div class="body-middle1"  style="margin-top: 235px;">
+            <div>
+                <ul id="u1">
+
+                </ul>
+            </div>
+        </div>
+        <div class="body-middle2"
+            style="position: fixed;margin-top: 200px;z-index: 1;background-color: rgb(79, 126, 255);">
+            <h2 style="color: rgb(153, 255, 0);text-align: center;">已完成</h2>
+        </div>
+        <div class="body-middle2" style="margin-top: 235px;">
+            <div>
+                <ul id="u2">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <input id="input1" type="text" style="display: none;">
+    </div>
+    <div class="jump">
+        <a  id="j1" href='register.html'> 注册</a>
+        <a  id="j2" href='login.html'>登录</a>
+    </div>>
+</body>
+
+</html>

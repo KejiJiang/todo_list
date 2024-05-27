@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* todolist标签为块状显示 */
+label {
+    display: block;
+}
+/* 按钮 */
+button {
+    cursor: pointer;
+}
+.login {
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    color: aliceblue;
+    background-color: lightpink;
+    line-height: 200px;
+    z-index: 1;
+}
+/* todolist字体 */
+#l1 {
+    font-size: 55px;
+    text-align: center;
+    z-index: 1;
+    position: center;
+}
+/* 账号输入框 */
+#r1 {
+    position: fixed;
+    left: 38%;
+    top: 200px;
+    width: 355px;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+}
+/*密码输入框*/
+#r2 {
+    position: fixed;
+    left: 38%;
+    top: 260px;
+    width: 355px;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+#r3 {
+    position: fixed;
+    left: 38%;
+    top: 320px;
+    width: 355px;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+}
+#r4 {
+    position: fixed;
+    left: 38%;
+    top: 380px;
+    width: 355px;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+}
+/* 返回按钮 */
+#r5 {
+    position: fixed;
+    left: 38%;
+    top: 420px;
+    cursor: pointer;
+    height: 34px;
+    width: 75px;
+    z-index: 1;
+}
+/*发送验证码按钮*/
+#r6 {
+    position: fixed;
+    left: 47%;
+    top: 420px;
+    cursor: pointer;
+    height: 34px;
+    width: 80px;
+    z-index: 1;
+}
+#r6_1 {
+    position: fixed;
+    left: 47%;
+    top: 420px;
+    cursor: pointer;
+    height: 34px;
+    width: 80px;
+    z-index: 1;
+}
+/*注册按钮*/
+#r7{
+    position: fixed;
+    left: 56%;
+    top: 420px;
+    cursor: pointer;
+    height: 34px;
+    width: 80px;
+    z-index: 1;
+}

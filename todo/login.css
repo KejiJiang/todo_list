@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* todolist标签为块状显示 */
+label {
+    display: block;
+}
+/* 按钮 */
+button {
+    cursor: pointer;
+}
+.login {
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    color: aliceblue;
+    background-color: rgb(248, 160, 173);
+    line-height: 200px;
+    z-index: 2;
+}
+/* todolist字体 */
+#l1 {
+    font-size: 55px;
+    text-align: center;
+    z-index: 1;
+    position: center;
+}
+/* 账号输入框 */
+#ii11 {
+    position: fixed;
+    left: 38%;
+    top: 200px;
+    width: 355px;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+}
+/*密码输入框*/
+#ii22 {
+    position: fixed;
+    left: 38%;
+    top: 260px;
+    width: 355px;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+}
+/* 注册按钮 */
+#ii33 {
+    position: fixed;
+    left: 42%;
+    top: 300px;
+    cursor: pointer;
+    height: 34px;
+    width: 55px;
+    z-index: 1;
+}
+/*登录按钮*/
+#ii44 {
+    position: fixed;
+    left: 54%;
+    top: 300px;
+    cursor: pointer;
+    height: 34px;
+    width: 55px;
+    z-index: 1;
+}
+
+#text{
+    position: fixed;
+    left: 38%;
+    top: 320px;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+#canvas{
+    border: 3px solid #cccccc;
+    border-radius: 5px;
+    position: fixed;
+    left: 55%;
+    top: 320px;
+    width: 100px;
+    height:35px;
+    z-index: 1;
+    display: none;
+}

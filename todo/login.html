@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+    <script src="login.js"></script>
+</head>
+<body style="background-color: #ffdcdc;margin: 0 auto;">
+<div class="login">
+    <label id="l1">ToDoList</label>
+    <input id="ii11" type="text" placeholder="请输入账号" name="account" style="border-radius: 5px;" /><!--账号输入框-->
+    <input id="ii22" type="password" placeholder="请输入密码" name="password" style="border-radius: 5px;" /><!--密码输入框-->
+    <input type="text" value="" placeholder="请输入验证码（区分大小写）" id="text" style="border-radius: 5px;">
+    <canvas id="canvas" width="100" height="43" onclick="dj()" ></canvas>
+    <a href='register.html'> <input id="ii33" type="button" onclick="add()" value="注册"></a>
+    <input id="ii44" type="button" onclick="login()" value="登录"><!--确定按钮-->
+</div>
+</body>
+</html>

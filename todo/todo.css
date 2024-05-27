@@ -1,0 +1,213 @@
+/* 全局 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 按钮 */
+button {
+    cursor: pointer;
+}
+
+/* 删除按钮 */
+.b1 {
+    color: rgb(0, 141, 141);
+    border-radius: 5px;
+}
+
+/* 完成按钮 */
+.b2 {
+    color: rgb(181, 100, 0);
+    border-radius: 5px;
+}
+
+/* 修改按钮 */
+.b3 {
+    color: rgb(0, 77, 186);
+    border-radius: 5px;
+}
+
+/* 确定按钮 */
+.b4 {
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+/* 取消按钮 */
+.b5 {
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+/* todolist标签为块状显示 */
+label {
+    display: block;
+}
+
+/*去掉 ul前面的点 */
+ul {
+    list-style-type: none;
+}
+
+/* 顶部块状元素 */
+.pg-top {
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    color: aliceblue;
+    background-color: lightpink;
+    line-height: 200px;
+    z-index: 1;
+}
+
+.pg-pra {
+    height: 50px;
+    position: fixed;
+    background-color: lightpink;
+    line-height: 50px;
+    z-index: 1;
+    right: 2%;
+}
+
+/* 列表体块状元素 */
+.pg-body {
+    position: relative;
+    width: 100%;
+}
+
+/* 未完成的块状容器，靠左 */
+.body-middle1 {
+    position: absolute;
+    left: 2%;
+    right: 52%;
+    margin-top: 202px;
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff9494;
+}
+
+/* 已完成的块状容器，靠右 */
+.body-middle2 {
+    position: absolute;
+    left: 52%;
+    right: 2%;
+    margin-top: 202px;
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #729dff;
+}
+
+/* 设置按钮的字，置中 */
+.middle-bottom {
+    text-align: center;
+}
+
+/* todolist字体 */
+#l1 {
+    font-size: 55px;
+    text-align: center;
+    z-index: 1;
+}
+
+#p1 {
+    top:-500px;
+    font-size: 30px;
+    z-index: 1;
+    text-align: right;
+    cursor: pointer;
+    color: black;
+}
+
+/* 时间输入框 */
+#i12 {
+    position: fixed;
+    left: 25%;
+    top: 150px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+/* 事项输入框 */
+#i1 {
+    position: fixed;
+    left: 38%;
+    top: 150px;
+    width: 355px;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+/* 查询事项框 */
+#i11 {
+    position: fixed;
+    left: 80%;
+    top: 150px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+/* 确定按钮 */
+#i2 {
+    position: fixed;
+    left: 63%;
+    top: 150px;
+    cursor: pointer;
+    height: 34px;
+    width: 55px;
+    z-index: 1;
+}
+
+/* 清除全部按钮 */
+#i3 {
+    position: fixed;
+    left: 67%;
+    top: 150px;
+    cursor: pointer;
+    height: 34px;
+    width: 75px;
+    z-index: 1;
+}
+
+/* 获取列表按钮 */
+#i4 {
+    position: fixed;
+    left: 72.5%;
+    top: 150px;
+    cursor: pointer;
+    height: 34px;
+    width: 75px;
+    z-index: 1;
+}
+
+/* 查询按钮 */
+#i5 {
+    position: fixed;
+    left: 94%;
+    top: 150px;
+    cursor: pointer;
+    height: 34px;
+    width: 75px;
+    z-index: 1;
+}
+
+/*跳转*/
+.jump {
+    position: fixed;
+    left: 5%;
+    top: 50px;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 30px;
+}
+
+/* 响应式设计 由于此界面做起来相当复杂，这里就不做了*/
+/* @media screen and (max-width: 1000px) {     
+    
+} */
